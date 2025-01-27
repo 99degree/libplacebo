@@ -15,8 +15,8 @@
  * License along with libplacebo. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef COMMON_H
-#define COMMON_H
+#ifndef _LIBPLACEBO_COMMON_H_
+#define _LIBPLACEBO_COMMON_H_
 
 #pragma once
 

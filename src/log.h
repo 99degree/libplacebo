@@ -15,8 +15,8 @@
  * License along with libplacebo. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef LIBPLACEBO_LOG_H
-#define LIBPLACEBO_LOG_H
+#ifndef _LIBPLACEBO_LOG_H_
+#define _LIBPLACEBO_LOG_H_
 
 #pragma once
 

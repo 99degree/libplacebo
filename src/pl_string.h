@@ -15,8 +15,8 @@
  * License along with libplacebo. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef VULKAN_PL_STRING_H
-#define VULKAN_PL_STRING_H
+#ifndef _VULKAN_PL_STRING_H_
+#define _VULKAN_PL_STRING_H_
 
 #pragma once
 
