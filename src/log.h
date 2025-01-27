@@ -15,6 +15,9 @@
  * License along with libplacebo. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#ifndef LIBPLACEBO_LOG_H
+#define LIBPLACEBO_LOG_H
+
 #pragma once
 
 #include <stdarg.h>
@@ -82,3 +85,4 @@ static inline void pl_log_cpu_time(pl_log log, pl_clock_t start, pl_clock_t stop
 
 // Log stack trace
 PL_NOINLINE void pl_log_stack_trace(pl_log log, enum pl_log_level lev);
+#endif

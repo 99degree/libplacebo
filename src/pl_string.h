@@ -15,6 +15,9 @@
  * License along with libplacebo. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#ifndef VULKAN_PL_STRING_H
+#define VULKAN_PL_STRING_H
+
 #pragma once
 
 #include "common.h"
@@ -316,3 +319,5 @@ void pl_str_builder_vprintf_c(pl_str_builder builder, const char *fmt, va_list a
 #define _get_fmt(fmt, ...)              fmt
 
 PL_API_END
+
+#endif

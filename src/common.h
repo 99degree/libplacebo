@@ -15,6 +15,9 @@
  * License along with libplacebo. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#ifndef COMMON_H
+#define COMMON_H
+
 #pragma once
 
 #define __STDC_FORMAT_MACROS
@@ -189,3 +192,5 @@ typedef atomic_uint_fast32_t pl_rc_t;
           goto error;                                           \
       }                                                         \
   } while (0)
+
+#endif

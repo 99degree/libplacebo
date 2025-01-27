@@ -15,6 +15,9 @@
  * License along with libplacebo. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#ifndef VULKAN_COMMON_H
+#define VULKAN_COMMON_H
+
 #pragma once
 
 #define VK_NO_PROTOTYPES
@@ -233,3 +236,5 @@ struct vk_ctx {
     PL_VK_FUN(AcquireFullScreenExclusiveModeEXT);
 #endif
 };
+
+#endif
