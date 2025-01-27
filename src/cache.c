@@ -280,7 +280,7 @@ uint64_t pl_cache_signature(pl_cache cache)
 
 // --- Saving/loading
 
-#define CACHE_MAGIC   "pl_cache"
+#define CACHE_MAGIC   "pl_cac\n"
 #define CACHE_VERSION 1
 #define PAD_ALIGN(x)  PL_ALIGN2(x, sizeof(uint32_t))
 
